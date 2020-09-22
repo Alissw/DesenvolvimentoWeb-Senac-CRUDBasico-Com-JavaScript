@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cadastro de computadores</title>
+        <script type="text/javascript" src="js/eventos.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+
+    <body>
+        <div id="container">
+            <h2>Cadastro de computadores</h2>
+                <form>
+                    <input type="text" id="marca" name="marca" placeholder="Digite a marca..." required=marca>
+                    <input type="text" id="processador" name="processador" placeholder="Digite o processador...">
+                    <input type="text" id="placamae" name="pacamae" placeholder="Digite a placa mae...">
+                    <input type="text" id="solidstatedrive" name="solidstatedrive" placeholder="Digite a marca do SSD...">
+                    <input type="text" id="sistemaoperacional" name="sistemaoperacional" placeholder="Digite o sistema operacional...">
+                    <input class="botao" type="button" value="Cadastrar" onclick="cadastrar()">
+                    <input type="reset" name="limpar" value="Limpar dados">
+                </form>
+            <div id="dadosdoformulario" onmouseover="limpar()">
+
+            </div>
+        </div>
+    </body>
+</html>

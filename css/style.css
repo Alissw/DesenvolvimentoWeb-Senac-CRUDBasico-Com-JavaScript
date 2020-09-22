@@ -1,0 +1,17 @@
+input{
+    display: block;
+}
+#container{
+    margin: 0 auto 0 auto;
+    width: 350px;
+    height: 300px;
+
+}
+.botao{
+    float: left;
+}
+
+form {
+  width: 300px;
+  margin: 0 auto;
+  }
